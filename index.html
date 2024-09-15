@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IYF-PROJECT</title>
+</head>
+<style>
+body{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: #d8e267;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+#button {
+    background-color: #d8e267;
+    color: #035a53;
+    height: 34px;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-center>a {
+  margin: 0 20px;
+}
+.navbar>a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.homer {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.service {
+    text-decoration: none;
+    color: black;
+}
+.facility {
+    text-decoration: none;
+    color: black;
+}
+.about {
+    text-decoration: none;
+    color: black;
+}
+.Medilop {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+.sign {
+    background-color: black;
+    color: #ddd;
+    margin-right: 20px;
+}
+.log {
+    text-align: right;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+.head1 {
+    font-family: Georgia, 'Times New Roman', 
+    Times, serif;
+    margin-left: 20px;
+}
+.container {
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin-inline: auto;
+}
+.image {
+    height: 400px;
+    width: 600px;
+    top: 0;
+    margin-left: 40px;
+  }
+  .button {
+    color: aliceblue;
+    background-color: black;
+    height: 35px;
+    width: 80px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    margin-left: 0px;
+    padding: 0px;
+    border-left: 0px;
+    margin-right: 30px;
+}
+#password {
+    height: 30px;
+    width: 300px;
+    padding: 0px;
+    border-width: 2px;
+    border-color: black;
+}
+.sub-container44 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.sub-container44 .span-div {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #d8e267;
+    color: #035a53;
+    align-items: center;
+}
+.sub-span {
+    font-size: 3rem;
+}
+.span-text {
+    text-transform: uppercase;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+    color: #035a53;
+    text-align: center;
+    height: auto;
+    bottom: 0;
+}
+.bestservice {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #fcfcfc;
+}
+.parag {
+    flex-direction: column;
+}
+.kin {
+    flex-direction: column;
+    margin-left: 20px;
+}
+.myimage {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin: auto;
+}
+.sub-bestservice {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #fcfcfc;
+    color: #035a53;
+    align-items: center;
+}
+.otherpics {
+    display: flex;
+    padding: 2rem;
+    background-color: #fcfcfc;
+    color: #035a53;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.caps {
+    font-weight: bold;
+}
+.more {
+    display: flex;
+    padding: 2rem;
+    background-color: #fcfcfc;
+    color: #035a53;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+.main-doctors {
+    display: flex;
+    padding: 2rem;
+    background-color: #d8e267;
+    color: #035a53;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+.someinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #d8e267;
+    color: #035a53;
+    margin: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+.Doctor22 {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+.button44 {
+    color: aliceblue; 
+    background-color: black;
+    width: 120px; 
+    height: 30px;
+}
+.sub-doctor22 {
+    margin-right: 20px;
+    height: 500px;
+}
+.onlinecare {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.about44 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+</style>
+<body>
+    <div class="main-container">
+        <div class="navbar">
+            <div class="navbar-left">
+                <img src="C:\Users\HP\Downloads\hossit.jpg" width="10%" height="10%" style="float: left;">
+                <a href="HOSSIT" class="HOSSIT">    
+                </a>
+            </div>
+            <div class="navbar-center">
+                <a href="#home" class="home">Home</a>
+                <a href="#Services" class="service">Services</a>
+                <a href="#Facility" class="facility">Facility</a>
+                <a href="#About" class="about">About us</a>
+            </div>
+            <div class="navbar-right">
+                <a href="login" class="log">
+                    Log In
+                    <button class="sign">Log In</button>
+                </a>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="kin">
+                <h1 class="head1"><strong> Your Health <br>
+                    Our Priority Too...</strong></h1>
+                    <div class="parag">
+                        <p>Discover a place where healing begins and hope thrives.Hosit Health-Care is where compassionate care meets advanced medical expertise
+                            Your health is our mission. We offer experience exceptional care, healing lives, one patient at a time. Welcome to Hosit Health-Care!.<br><br>
+                            <label for="password" ></label>
+                            <input type="text" id="password"
+                             name="password">
+                            <button class="button">Sign up</button>
+                        </p>
+                        <button id="button">Back Now</button>
+                        <button onclick="playVid()" type="button">Play Video</button>
+                    </div>
+            </div>
+            <video src="C:\Users\HP\Downloads\projvid.mp4" height="40%" width="40%" controls>
+                This text is used for the browser which does not support the video element.
+              </video>
+        </div>
+    </div>
+    <div class="sub-container44">
+        <div class="span-div">
+            <span class="sub-span">95%</span>
+            <p class="span-text">recovery rate</p>
+        </div>
+        <div class="span-div">
+            <span class="sub-span">1,500+</span>
+            <p class="span-text">Employed</p>
+        </div>
+        <div class="span-div">
+            <span class="sub-span">3,000+</span>
+            <p class="span-text">recovered</p>
+        </div>
+        <div class="span-div">
+            <span class="sub-span">100%</span>
+            <p class="span-text">Transparency</p>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: 3rem;"><strong> What We Offer</strong></div>
+    <div class="bestservice">
+        <div class="sub-bestservice" style="padding: 30px; background-color: #d8e267; margin: 10px;">
+            <span class="myimage"><img 
+                src="C:\Users\HP\Downloads\lab.jpg" alt="" style="width: 200px; 
+                border-radius: 50%; height: 200px;"></span>
+            <p class="caps">laboratory Services</p>
+            <p>For all kinds of Diagnostics</p>
+        </div>
+        <div class="sub-bestservice" style="padding: 30px; background-color: #d8e267; margin: 10px;">
+            <span class="myimage"><img 
+                src="C:\Users\HP\Downloads\pharmacy.jpg" alt="" style="width: 200px; 
+                border-radius: 50%; height: 200px;"></span>
+            <p class="caps">Pharmacy</p>
+            <p>We all ranges of recommendend medicines</p>
+        </div>
+        <div class="sub-bestservice" style="padding: 30px; background-color: #d8e267; margin: 10px;">
+            <span class="myimage"><img 
+                src="C:\Users\HP\Downloads\family.jpg" alt="" style="width: 200px; 
+                border-radius: 50%; height: 200px;"></span>
+            <p class="caps">Family Care</p>
+            <p>Get the best family planning solution</p>
+        </div>
+        <div class="sub-bestservice" style="padding: 30px; background-color: #d8e267; margin: 10px;">
+            <span class="myimage"><img 
+                src="C:\Users\HP\Downloads\optical.jpg" alt="" style="width: 200px; 
+                border-radius: 50%; height: 200px;"></span>
+            <p class="caps">Eye Care</p>
+            <p>We have the best glasses for your looks</p>
+        </div>
+    </div>
+    <div class="otherpics">
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="C:\Users\HP\Downloads\pediatric.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Baby Health</p>
+        </div>
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="C:\Users\HP\Downloads\counseling.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Psychology</p>
+        </div>
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="C:\Users\HP\Downloads\dentistry.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Dental Care</p>
+        </div>
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="C:\Users\HP\Downloads\views.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Care-giving</p>
+        </div>
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="C:\Users\HP\Downloads\telehealth 4.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Telemedicine</p>
+        </div>
+    </div>
+    <div style="font-weight: bold; margin-left: 50px;text-align: center;"><h1>It's Now Very Easy</h1></div>
+    <div class="more">
+        <div style="padding: 20px; background-color: #d8e267;margin: 20px;">
+            <span>Doctors</span>
+            <p>We have the best doctors</p>
+        </div>
+        <div style="padding: 20px; background-color: #d8e267; margin: 20px;">
+            <span>Consult</span>
+            <p>Easy to book your Appointment</p>
+        </div>
+        <div style="padding: 20px; background-color: #d8e267; margin: 20px;">
+            <span>Pharmacy</span>
+            <p>We got all you need</p>
+        </div>
+        <div style="padding: 20px; background-color: #d8e267; margin: 20px;">
+            <span>Diagnostics</span>
+            <p>We are very much equipped</p>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: 2rem;">The Best <strong>Doctors</strong></div>
+    <div class="main-doctors">
+        <div class="doctors" style="padding: 20px; background-color: #d8e267; margin: 10px;">
+            <span><img src="C:\Users\HP\Downloads\doc3.jpg" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Dr. Janes</p>
+            <p>Paediatric specialist</p>
+        </div>
+        <div class="doctors" style="padding: 20px; background-color: #d8e267; margin: 10px;">
+            <span><img src="C:\Users\HP\Downloads\doc4.jpg" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Dr. Kon Jung</p>
+            <p>Oncology specialist.</p>
+        </div>
+        <div class="doctors" style="padding: 20px; background-color: #d8e267; margin: 10px;">
+            <span><img src="C:\Users\HP\Downloads\doc2.jpg" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Dr. Zhong</p>
+            <p>urologist</p>
+        </div>
+        <div class="doctors" style="padding: 20px; background-color: #d8e267; margin: 10px;">
+            <span><img src="C:\Users\HP\Downloads\labspe.jpg" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Dr. Hert</p>
+            <p>Medical Laboratory Specialist</p>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: 2rem; margin-top: 20px; margin-bottom: 20px;">Easy Step And 
+        <strong>Get Your Solution</strong>
+    </div>
+    <div class="someinfo">
+        <div>
+            <span><img src="C:\Users\HP\Downloads\profile.jpg" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p><a href="#home">Check out your Doctor Profile</a></p>
+        </div>
+        <div>
+            <span><img src="C:\Users\HP\Downloads\doctor-consulting.jpg" alt="" style="width: 150px; 
+                height: 150px;"></span>
+                <p><a href="#home">Doctors consultation</a></p>
+            
+        </div>
+        <div>
+            <span><img src="C:\Users\HP\Downloads\guidance-counselor.jpg" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p><a href="#home">Get counseling here</a></p>
+        </div>
+        <div>
+            <span><img src="C:\Users\HP\Downloads\telemedicine-2.webp" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p><a href="#home">Talk with your Doctor From anywhere</a></p>
+        </div>
+    </div>
+
+    <div class="Doctor22">
+        <div class="sub-doctor22">
+            <div style="font-size: 2rem; text-align: left; margin-top: 20px;margin-bottom: 20px;
+            ">
+                Best Doctor <strong>Anywhere <br>And Anytime</strong></div>
+            <p>At Hossit, you find the best doctors and hospital specialists from anywhere across the globe.
+                <br>we are always available in accordance to your schedule. Get intouch with our specialist online.</p><br><br>
+            <button class="button44">Find Doctor Now</button>
+        </div>
+        <span><img src="C:\Users\HP\Downloads\telemedicine-system.jpg" alt="" style="margin-left: 20px;
+        height: 500px;"></span>
+    </div>
+    <div class="onlinecare">
+        <span><img src="onlinecare.jpg" alt=""  style="margin-left: 20px;"></span>
+        <div style="margin-right: 20px; margin-left: 20px;">
+            <p style="font-size: 3rem;">
+                Urgent <strong>Online Care</strong> Solution Your Problem</p>
+                <img src="C:\Users\HP\Downloads\_c879504a-c33f-4a03-aa67-2a68460f8064.jpg" style="margin-left: 20px; height: 500px;">
+            <p>We solve the problem you are facing to ensure you and your family are safe and happy.</p>
+            <p>We keep you safe from all the infectious diseases and attend to your at the convinience of your time.</p>
+            <button style="background-color: black;
+            color: aliceblue; width: 150px; height: 30px;">Take Appointment</button>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: 3rem;">
+        What People Say <strong>About Us</strong></div>
+    <div class="about44">
+        <div>
+            <span><img src="C:\Users\HP\Downloads\_b060eaca-9d50-4a55-a88e-4d665c413ff1.jpg" alt="" style="height: 500px; width: 600px;"></span>
+            <p>The view this person has about us</p>
+        </div>
+        <div>
+            <span><img src= alt=""></span>
+            <p>The view person be has on us</p>
+        </div>
+    </div>
+    <div style="display: flex; margin-left: 20px; align-items: center;">
+        <p style="font-size: 2rem; margin-right: 20px;">Want to <strong>Register</strong> Easily?</p>
+        <button style="background-color: black; color: aliceblue; height: 30px;">
+            Submit Here</button>
+    </div>
+    <div>
+        <footer class="footer" style="float: left;">
+            <img src="C:\Users\HP\Downloads\hossit.jpg" width="5%" height="5%" style="float: left;"><br>
+            Contact: 0715763143<br>
+            Email:hosit@hosit.com<br>
+                <p>&copy; 2024 Hosit. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
